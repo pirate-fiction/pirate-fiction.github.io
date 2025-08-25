@@ -87,31 +87,31 @@ section:nth-child(1) a:hover {
 }
 
 section:nth-child(2) h2 {
-  color: #00ff41; 
-  border-bottom-color: #00ff41;
+  color: #31b825; 
+  border-bottom-color: #31b825;
 }
 
 section:nth-child(2) a {
-  color:#00ff41;
+  color: #31b825;
 }
 
 section:nth-child(2) a:hover {
   color: #ffffff;
-  text-shadow: 0 0 5px #00ff41;
+  text-shadow: 0 0 5px #31b825;
 }
 
 section:nth-child(3) h2 {
-  color: #9b59b6; 
-  border-bottom-color: #9b59b6;
+  color: #b928c9; 
+  border-bottom-color: #b928c9;
 }
 
 section:nth-child(3) a {
-  color: #9b59b6;
+  color: #b928c9;
 }
 
 section:nth-child(3) a:hover {
   color: #ffffff;
-  text-shadow: 0 0 5px #9b59b6;
+  text-shadow: 0 0 5px #b928c9;
 }
 
 ul {
