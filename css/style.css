@@ -26,11 +26,12 @@ header {
 
 .ascii-title {
   color: #d62220;
-  font-size: 10px;
   white-space: pre;
-  overflow-x: auto; /* permet le scroll horizontal */
   display: block;
   max-width: 100%;
+  font-size: 2vw;   /* s’adapte automatiquement à la largeur de l’écran */
+  line-height: 1.1;
+  overflow-x: hidden; /* supprime le scroll horizontal */
 }
 
 .subtitle {
@@ -77,13 +78,13 @@ footer {
 
 /* --------- RESPONSIVE --------- */
 @media (max-width: 600px) {
-  .ascii-title {
-    font-size: 6px; /* réduit sur mobile */
-  }
-
   body {
     font-size: 16px;
     padding: 10px;
+  }
+
+  .ascii-title {
+    font-size: 8px; /* taille minimum sur mobile pour rester lisible */
   }
 
   h2 {
@@ -94,4 +95,5 @@ footer {
     font-size: 16px;
   }
 }
+
 
