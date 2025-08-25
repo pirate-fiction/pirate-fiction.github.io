@@ -1,0 +1,74 @@
+/* --------- BASE --------- */
+body {
+  background-color: #0d0d0d;
+  color: #d0ffd0;
+  font-family: 'VT323', monospace;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+a {
+  color: #00ff66;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 5px #00ff66;
+}
+
+/* --------- HEADER --------- */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.ascii-title {
+  color: #00ff66;
+  font-size: 10px;
+  white-space: pre;
+  overflow-x: auto;
+}
+
+.subtitle {
+  color: #aaa;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* --------- MAIN --------- */
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #00ff66;
+  font-size: 24px;
+  border-bottom: 1px solid #00ff66;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* --------- FOOTER --------- */
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin: 40px 0;
+}
