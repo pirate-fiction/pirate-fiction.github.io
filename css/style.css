@@ -28,7 +28,9 @@ header {
   color: #d62220;
   font-size: 10px;
   white-space: pre;
-  overflow-x: auto;
+  overflow-x: auto; /* permet le scroll horizontal */
+  display: block;
+  max-width: 100%;
 }
 
 .subtitle {
@@ -72,3 +74,24 @@ footer {
   color: #555;
   margin: 40px 0;
 }
+
+/* --------- RESPONSIVE --------- */
+@media (max-width: 600px) {
+  .ascii-title {
+    font-size: 6px; /* réduit sur mobile */
+  }
+
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  ul li {
+    font-size: 16px;
+  }
+}
+
