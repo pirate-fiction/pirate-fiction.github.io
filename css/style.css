@@ -33,6 +33,7 @@ header {
   margin: 0 auto;
   max-width: 100%;
   overflow: hidden;
+  font-size: 14px;
 }
 
 /* Version mobile ASCII (cachée par défaut) */
@@ -42,7 +43,9 @@ header {
   white-space: pre;
   line-height: 1.1;
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 12px;
+  overflow-x: auto;
+  max-width: 100%;
 }
 
 .subtitle {
@@ -122,7 +125,7 @@ footer {
 
 @media screen and (max-width: 480px) {
   .ascii-title-mobile {
-    font-size: 14px;
+    font-size: 10px;
   }
   
   body {
@@ -132,6 +135,11 @@ footer {
   ul li {
     font-size: 16px;
   }
+  
+  header {
+    padding: 10px 5px;
+  }
+}
 }
 
 
