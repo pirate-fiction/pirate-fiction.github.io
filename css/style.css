@@ -35,6 +35,16 @@ header {
   overflow: hidden;
 }
 
+/* Version mobile ASCII (cachée par défaut) */
+.ascii-title-mobile {
+  display: none;
+  color: #d62220;
+  white-space: pre;
+  line-height: 1.1;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
 .subtitle {
   color: #aaa;
   margin-top: 10px;
@@ -77,6 +87,51 @@ footer {
   margin: 40px 0;
 }
 
+/* --------- RESPONSIVE --------- */
+@media screen and (max-width: 768px) {
+  /* Cache le gros ASCII sur mobile */
+  .ascii-title {
+    display: none;
+  }
+  
+  /* Affiche la version mobile ASCII */
+  .ascii-title-mobile {
+    display: block;
+  }
+  
+  body {
+    font-size: 18px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  ul li {
+    font-size: 18px;
+  }
+  
+  main {
+    padding: 15px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ascii-title-mobile {
+    font-size: 14px;
+  }
+  
+  body {
+    font-size: 16px;
+  }
+  
+  ul li {
+    font-size: 16px;
+  }
 }
 
 
