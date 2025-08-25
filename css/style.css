@@ -27,11 +27,13 @@ header {
 .ascii-title {
   color: #d62220;
   white-space: pre;
-  display: block;
-  max-width: 100%;
-  font-size: 2vw;   /* s’adapte automatiquement à la largeur de l’écran */
+  display: inline-block;
+  transform: scale(0.35);       /* réduit l'ensemble sur mobile */
+  transform-origin: top center; /* centré */
   line-height: 1.1;
-  overflow-x: hidden; /* supprime le scroll horizontal */
+  margin: 0 auto;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .subtitle {
@@ -77,23 +79,21 @@ footer {
 }
 
 /* --------- RESPONSIVE --------- */
-@media (max-width: 600px) {
-  body {
-    font-size: 16px;
-    padding: 10px;
-  }
 
+/* Tablette */
+@media (min-width: 600px) {
   .ascii-title {
-    font-size: 8px; /* taille minimum sur mobile pour rester lisible */
+    transform: scale(0.6);
   }
+}
 
-  h2 {
-    font-size: 20px;
+/* PC */
+@media (min-width: 1024px) {
+  .ascii-title {
+    transform: scale(1);
   }
+}
 
-  ul li {
-    font-size: 16px;
-  }
 }
 
 
