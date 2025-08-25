@@ -72,6 +72,21 @@ h2 {
   padding-bottom: 5px;
 }
 
+section:nth-child(1) h2 {
+  color: #d62220; 
+  border-bottom-color: #d62220;
+}
+
+section:nth-child(2) h2 {
+  color: #00ff41; 
+  border-bottom-color: #00ff41;
+}
+
+section:nth-child(3) h2 {
+  color: #9b59b6; 
+  border-bottom-color: #9b59b6;
+}
+
 ul {
   list-style: none;
   padding: 0;
