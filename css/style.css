@@ -10,13 +10,13 @@ body {
 }
 
 a {
-  color: #d62220;
+  color: #f0eded;
   text-decoration: none;
 }
 
 a:hover {
   color: #ffffff;
-  text-shadow: 0 0 5px #d62220;
+  text-shadow: 0 0 5px #f0eded;
 }
 
 /* --------- HEADER --------- */
@@ -77,41 +77,14 @@ section:nth-child(1) h2 {
   border-bottom-color: #d62220;
 }
 
-section:nth-child(1) a {
-  color: #d62220;
-}
-
-section:nth-child(1) a:hover {
-  color: #ffffff;
-  text-shadow: 0 0 5px #d62220;
-}
-
 section:nth-child(2) h2 {
   color: #31b825; 
   border-bottom-color: #31b825;
 }
 
-section:nth-child(2) a {
-  color: #31b825;
-}
-
-section:nth-child(2) a:hover {
-  color: #ffffff;
-  text-shadow: 0 0 5px #31b825;
-}
-
 section:nth-child(3) h2 {
   color: #b928c9; 
   border-bottom-color: #b928c9;
-}
-
-section:nth-child(3) a {
-  color: #b928c9;
-}
-
-section:nth-child(3) a:hover {
-  color: #ffffff;
-  text-shadow: 0 0 5px #b928c9;
 }
 
 ul {
