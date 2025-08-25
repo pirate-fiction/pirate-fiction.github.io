@@ -29,8 +29,6 @@ header {
   color: #d62220;
   white-space: pre;
   display: inline-block;
-  transform: scale(0.35);       /* réduit l'ensemble sur mobile */
-  transform-origin: top center; /* centré */
   line-height: 1.1;
   margin: 0 auto;
   max-width: 100%;
@@ -77,22 +75,6 @@ footer {
   font-size: 18px;
   color: #555;
   margin: 40px 0;
-}
-
-/* --------- RESPONSIVE --------- */
-
-/* Tablette */
-@media (min-width: 600px) {
-  .ascii-title {
-    transform: scale(0.6);
-  }
-}
-
-/* PC */
-@media (min-width: 1024px) {
-  .ascii-title {
-    transform: scale(1);
-  }
 }
 
 }
