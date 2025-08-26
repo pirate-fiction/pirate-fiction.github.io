@@ -93,7 +93,8 @@ ul {
 
 ul li {
   margin: 10px 0;
-  font-size: 22px;
+  font-size: 20px;
+  line-height: 1.4;
 }
 
 /* --------- FOOTER --------- */
@@ -122,7 +123,8 @@ footer {
   }
   
   ul li {
-    font-size: 20px; /* Agrandi un peu sur mobile */
+    font-size: 18px;
+    line-height: 1.4;
   }
   
   main {
