@@ -13,6 +13,7 @@ a {
   color: #f0eded;
   text-decoration: none;
   border-bottom: 1px dotted #aaa;
+  font-family: 'Glacial Indifference', sans-serif; /* Liens en Glacial */
 }
 
 a:hover {
@@ -37,7 +38,6 @@ header {
   font-size: 10px;
 }
 
-/* Version mobile ASCII (cachée par défaut) */
 .ascii-title-mobile {
   display: none;
   color: #d62220;
@@ -67,15 +67,12 @@ section {
 }
 
 h2 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 600;
   color: #d62220;
   font-size: 26px;
   border-bottom: 1px solid #d62220;
   padding-bottom: 5px;
-}
-
-section:nth-child(1) h2 {
-  color: #d62220; 
-  border-bottom-color: #d62220;
 }
 
 section:nth-child(2) h2 {
@@ -108,12 +105,9 @@ footer {
 
 /* --------- RESPONSIVE --------- */
 @media screen and (max-width: 768px) {
-  /* Cache le gros ASCII sur mobile */
   .ascii-title {
     display: none;
   }
-  
-  /* Affiche la version mobile ASCII */
   .ascii-title-mobile {
     display: block;
   }
@@ -127,7 +121,7 @@ footer {
   }
   
   ul li {
-    font-size: 18px;
+    font-size: 20px; /* Agrandi un peu sur mobile */
   }
   
   main {
@@ -149,12 +143,14 @@ footer {
   }
   
   ul li {
-    font-size: 18px;
+    font-size: 20px;
   }
   
   header {
     padding: 10px 5px;
   }
+}
+
 }
 
 
