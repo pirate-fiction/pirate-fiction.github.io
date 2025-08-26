@@ -12,6 +12,7 @@ body {
 a {
   color: #f0eded;
   text-decoration: none;
+  border-bottom: 1px dotted #aaa;
 }
 
 a:hover {
