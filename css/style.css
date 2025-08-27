@@ -77,12 +77,26 @@ section {
 }
 
 h2 {
-  font-family: 'Toshiba437', sans-serif; /* ← police custom */
+  font-family: 'Toshiba437', sans-serif; 
   font-weight: normal;
-  color: #d62220;
   font-size: 26px;
-  border-bottom: 1px solid #d62220;
+  border-bottom: 1px solid;
   padding-bottom: 5px;
+}
+
+h2.category-red {
+  color: #d62220;
+  border-color:#d62220;
+}
+
+h2.category-green {
+  color: #31b825;
+  border-color: #31b825;
+}
+
+h2.category-purple {
+  color: #b928c9;
+  border-color: #b928c9;
 }
 
 section:nth-child(2) h2 {
