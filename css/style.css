@@ -99,16 +99,6 @@ h2.category-purple {
   border-color: #b928c9;
 }
 
-section:nth-child(2) h2 {
-  color: #31b825; 
-  border-bottom-color: #31b825;
-}
-
-section:nth-child(3) h2 {
-  color: #b928c9; 
-  border-bottom-color: #b928c9;
-}
-
 ul {
   list-style: none;
   padding: 0;
