@@ -163,6 +163,54 @@ footer {
   }
 }
 
+/* --------- ASCII par catégorie --------- */
+.category-red   { color: #d62220; }
+.category-green { color: #31b825; }
+.category-purple{ color: #b928c9; }
+
+/* --------- FIGURES (images + légendes) --------- */
+figure {
+  margin: 30px auto;
+  text-align: center;
 }
+figure img {
+  max-width: 100%;
+  border: 2px solid #333;
+}
+figcaption {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #aaa;
+  font-style: italic;
+}
+
+/* --------- NOTES / ASTUCES --------- */
+.note {
+  border-left: 4px solid currentColor;
+  padding: 10px 15px;
+  margin: 20px 0;
+  background: rgba(255,255,255,0.05);
+  font-size: 18px;
+}
+
+/* --------- NAVIGATION BAS DE PAGE --------- */
+.tuto-nav {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+.tuto-nav a {
+  margin: 0 15px;
+  font-family: 'Web437_ToshibaSat_8x14', monospace;
+  font-weight: 400;
+  border-bottom: none;
+  color: #f0eded;
+}
+
+.tuto-nav a:hover {
+  text-shadow: 0 0 5px #fff;
+}
+
 
 
